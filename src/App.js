@@ -4,6 +4,8 @@ import About from './components/About';
 import Nav from './components/Nav';
 import Gallery from './components/Gallery';
 import ContactForm from './components/Contact';
+import Resume from './components/Resume';
+
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -33,6 +35,7 @@ function App() {
         <div> {!contactSelected ? (
             <> 
         <Gallery currentCategory={currentCategory}></Gallery>
+        <Resume></Resume>
           <About></About>
           </> 
           ) : 

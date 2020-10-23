@@ -2,10 +2,14 @@ import React, { useState } from "react";
 import Modal from "../Modal";
 
 const Projects = ({ category }) => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [currentPhoto, setCurrentPhoto] = useState();
+
   const [photos] = useState([
     {
       name: "Bone Apple Tea",
-      // image: require('../../assets/boneappletea.png'),
+      category: 'portfolio',
+      // image: require('../../assets/Portfolio/boneappletea.png'),
       deployedLink: "https://tranquil-ridge-22533.herokuapp.com/",
       repoLink: "https://github.com/KRAY306090/project-two",
       description:
@@ -13,6 +17,7 @@ const Projects = ({ category }) => {
     },
     {
       name: "News By the Map",
+      category: 'portfolio',
       // image: require('../../assets/newsbythemap.png'),
       deployedLink: "https://adamkeyser45.github.io/newsbythemap/",
       repoLink: "https://github.com/adamkeyser45/newsbythemap",
@@ -21,6 +26,7 @@ const Projects = ({ category }) => {
     },
     {
       name: "Tech Blog",
+      category: 'portfolio',
       // image: require('../../assets/techblog.png'),
       deployedLink: "https://serene-falls-33864.herokuapp.com/",
       repoLink: "https://github.com/jonprine/tech-blog",
@@ -29,6 +35,7 @@ const Projects = ({ category }) => {
     },
     {
       name: "Weather Dashboard",
+      category: 'portfolio',
       // image: require('../../assets/weather.png'),
       deployedLink: "https://jonprine.github.io/weather-dashboard/",
       repoLink: "https://github.com/jonprine/weather-dashboard",
@@ -37,6 +44,7 @@ const Projects = ({ category }) => {
     },
     {
       name: "Social Media App",
+      category: 'portfolio',
       // image: require('../../assets/screenshot3.png'),
       deployedLink: "https://github.com/jonprine/social-media",
       repoLink: "https://github.com/jonprine/social-media",
@@ -44,6 +52,7 @@ const Projects = ({ category }) => {
     },
     {
       name: "Coding Quiz",
+      category: 'portfolio',
       // image: require('../../assets/codingquiz.png'),
       deployedLink: "https://jonprine.github.io/coding-quiz/",
       repoLink: "https://github.com/jonprine/coding-quiz",
@@ -53,10 +62,6 @@ const Projects = ({ category }) => {
 
   const currentPhotos = photos.filter((photo) => photo.category === category);
 
-  const [currentPhoto, setCurrentPhoto] = useState();
-
-  const [isModalOpen, setIsModalOpen] = useState(false);
-
   const toggleModal = (image, i) => {
     setCurrentPhoto({ ...image, index: i });
     setIsModalOpen(!isModalOpen);
@@ -64,11 +69,8 @@ const Projects = ({ category }) => {
 
   return (
     <div>
+      {isModalOpen && <Modal onClose={toggleModal} currentPhoto={currentPhoto} />}
       <div className="flex-row">
-        {isModalOpen && (
-          <Modal currentPhoto={currentPhoto} onClose={toggleModal} />
-        )}
-
         {currentPhotos.map((image, i) => (
           <img
             src={require(`../../assets/${category}/${i}.png`)}

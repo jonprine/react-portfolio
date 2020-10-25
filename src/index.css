@@ -94,7 +94,7 @@ p {
 }
 
 a {
-  color: var(--tertiary);
+  color: #000080;
   text-decoration: none;
   font-weight: bold;
 }

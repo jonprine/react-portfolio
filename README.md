@@ -13,7 +13,10 @@ Create React app
 ## Contribution
 Made by Jon Prine
 
+## Github Pages
+ https://jonprine.github.io/react-portfolio/
+
 ## Screenshots of Finished Page
-![Techblog](src/assets/screenshot1.png)
-![Techblog](src/assets/screenshot2.png)
-![Techblog](src/assets/screenshot3.png)
+![Portfolio](src/assets/screenshot1.png)
+![Portfolio](src/assets/screenshot2.png)
+![Portfolio](src/assets/screenshot3.png)

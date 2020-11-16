@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.d6b49ea9.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.07cfdc0e.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.07cfdc0e.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.a7a45a6d.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.a7a45a6d.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.213b1880.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.213b1880.js.map",
     "static/css/2.2a86faee.chunk.css": "/react-portfolio/static/css/2.2a86faee.chunk.css",
     "static/js/2.ed0104a1.chunk.js": "/react-portfolio/static/js/2.ed0104a1.chunk.js",
     "static/js/2.ed0104a1.chunk.js.map": "/react-portfolio/static/js/2.ed0104a1.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "precache-manifest.e6ae3c588255dd046e4942863bd5b97f.js": "/react-portfolio/precache-manifest.e6ae3c588255dd046e4942863bd5b97f.js",
+    "precache-manifest.4308b96222cda2cb733ef50baea3fd7f.js": "/react-portfolio/precache-manifest.4308b96222cda2cb733ef50baea3fd7f.js",
     "service-worker.js": "/react-portfolio/service-worker.js",
     "static/css/2.2a86faee.chunk.css.map": "/react-portfolio/static/css/2.2a86faee.chunk.css.map",
     "static/css/main.d6b49ea9.chunk.css.map": "/react-portfolio/static/css/main.d6b49ea9.chunk.css.map",
     "static/js/2.ed0104a1.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.ed0104a1.chunk.js.LICENSE.txt",
-    "static/media/0.png": "/react-portfolio/static/media/0.688ace80.png",
-    "static/media/1.png": "/react-portfolio/static/media/1.52b4772d.png",
-    "static/media/2.png": "/react-portfolio/static/media/2.8eb7fab8.png",
-    "static/media/3.png": "/react-portfolio/static/media/3.cf559f3c.png",
-    "static/media/4.png": "/react-portfolio/static/media/4.f4f6f45f.png",
+    "static/media/0.png": "/react-portfolio/static/media/0.a8577da9.png",
+    "static/media/1.png": "/react-portfolio/static/media/1.688ace80.png",
+    "static/media/2.png": "/react-portfolio/static/media/2.52b4772d.png",
+    "static/media/3.png": "/react-portfolio/static/media/3.8eb7fab8.png",
+    "static/media/4.png": "/react-portfolio/static/media/4.cf559f3c.png",
     "static/media/5.png": "/react-portfolio/static/media/5.c1dac6d7.png",
     "static/media/profilepic.jpg": "/react-portfolio/static/media/profilepic.c616701d.jpg",
     "static/media/resume.pdf": "/react-portfolio/static/media/resume.c5782c83.pdf",
@@ -32,6 +32,6 @@
     "static/css/2.2a86faee.chunk.css",
     "static/js/2.ed0104a1.chunk.js",
     "static/css/main.d6b49ea9.chunk.css",
-    "static/js/main.07cfdc0e.chunk.js"
+    "static/js/main.a7a45a6d.chunk.js"
   ]
 }
